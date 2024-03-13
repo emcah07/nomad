@@ -1,0 +1,437 @@
+*{
+    border: 0px solid red;
+}
+body{
+    scroll-behavior: smooth;
+}
+.navbartext a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.firstpage{
+    height: 100vh;
+    background-image: url(mainbackground.webp);
+    background-size: cover;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.logotext{
+    font-family:'Roboto', sans-serif ;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 15px
+}
+.navbar{
+    background-image:linear-gradient(to right, #7A8BAD, #222541) ;
+
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+}
+.navbartext{
+    font-family:'Roboto', sans-serif ;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    gap: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-self: center;
+
+    p{
+        margin:0    
+    }
+}
+
+.chui {
+    padding-top: 30px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    text-align:  center;
+    font-size: 30px;
+}
+.chui1 {
+    font-family:'Roboto', sans-serif ;
+    font-weight: 200;
+    font-style: normal;
+    color: aliceblue;
+    text-align:  center;
+    font-size: 24px;
+    background-color:  rgba(0, 0, 0, 0.2);
+}
+.chui2{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 200px;
+    /* gap: 50px; */
+}
+.chui2 a{
+    text-decoration: none;
+    color: black;
+}
+.placetovisit{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    border-radius: 20px;
+    max-width: 450px;
+}
+.placetovisit p{
+    font-family:'Roboto', sans-serif ;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+/* FIRST PAGE ENDED */
+
+.aboutuspage{
+    background-image:linear-gradient(to right, #7A8BAD, #222541) ;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 0;
+}
+.text1 p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 40px;
+    color: aliceblue;
+}
+.text1 p1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardrow{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 100px;
+}
+.cardrow img{
+    height: 225px;
+    width: 180px;
+    border-radius: 10px;
+
+}
+.viewall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.view {
+    border: 3px solid #BBBD52;
+    border-radius: 20px;
+    size: 16px;
+    color: aliceblue;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+.view p{
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/* ENDOFCARDPAGE */
+
+.Guides{
+    background-image:url(secondbackground.jpeg) ;
+    background-size: cover;
+    height: 100vh;
+}
+.pics{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, 80px);
+}
+.pics img{
+    height: 117px;
+    width: 647px;
+    border-radius: 15px;
+
+}
+/* END OF GUIDES PAGE */
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text2 p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+.text2 p1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+    margin-bottom: 80px;
+}
+.bottom{
+    background-image:linear-gradient(to right, #7A8BAD, #222541) ;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.qw1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.qw1 p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: aliceblue;
+}
+.qw1 p1{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: aliceblue;
+}
+.qw2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.qw2 p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: aliceblue;
+}
+.qw2 a{
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: aliceblue;
+}
+.qw3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.qw3 p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: aliceblue;
+}
+.qw3 a{
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: aliceblue;
+}
+@media (min-width: 1600px) and (max-width: 2000px) {
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.logotext{
+    font-size: 20px;
+}
+.navbartext p{
+    font-size: 20px;
+}
+.chui{
+    font-size: 50px;
+}
+.cardrow img{
+    height: 343px;
+    width: 274px;
+}
+.pics {
+
+    transform: translate(0, 160px);
+}
+}
+@media (min-width: 0px) and (max-width: 544px) {
+.navbartext{
+    font-weight: 300;
+    margin-left: 50px;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-left: 10px;
+}
+.chui{
+    font-size: 20px;
+    margin-top: 2px;
+}
+.chui1{
+    font-size: 15px;
+}
+.chui2{
+    gap: 30px;
+}
+.placetovisit p{
+    font-size: 15px;
+}
+.asksomething p{
+    font-size: 15px;
+}
+.text1 p{
+    font-size: 20px;
+}
+.text1 p1{
+    font-size: 12px;
+}
+
+
+.cardrow{
+    flex-direction: column;
+    gap: 10px;
+}
+.cardrow img{
+    height: 115px;
+    width: auto;
+    border-radius: 10px;
+}
+.pics img{
+    width: 300px;
+    height: auto;
+}
+.pics{
+    gap: 2px;
+    transform: translate(0, 250px);
+}
+.Guides{
+    background-repeat: repeat;
+}
+
+.qw1 p1{
+    font-size: 12px;
+}
+.qw2 a{
+    font-size: 12px;
+}
+.qw3 a{
+    font-size: 12px;
+}
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(47, 43, 99); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
